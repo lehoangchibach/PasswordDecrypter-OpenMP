@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name="test_batch"
+#SBATCH -n 2112
+#SBATCH --output="./output/test_batch_%j_lab4.out"
+#SBATCH --partition=compute
+#SBATCH --export=ALL
+
+
+srun $HOME/comp380-sp23-lab4-lehoangchibach/lab4 
