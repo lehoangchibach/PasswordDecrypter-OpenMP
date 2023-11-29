@@ -1,1 +1,3 @@
-# parallel_computing_lab4_decrypter
+# PasswordDecrypter-OpenMP
+
+
